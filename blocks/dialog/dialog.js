@@ -1,1 +1,3 @@
-
+ $( function() {
+    $( ".dialog" ).dialog();
+  } );

@@ -19,15 +19,133 @@
   display: block;
 }
 
-@media (width >= 900px) {
+@media (width >= 767px) {
   .columns > div {
-    align-items: center;
     flex-direction: unset;
-    gap: 24px;
+    gap: 30px;
   }
 
   .columns > div > div {
     flex: 1;
     order: unset;
   }
+}
+
+.two-column .columns h2 {
+  color: #0c2074;
+  font-size: 32px;
+  line-height: 34px;
+  font-weight: 300;
+  margin: 0 0 16px;
+}
+.two-column .columns a.button {
+  background-color: transparent;
+  padding: 0;
+  color: #0072c4;
+}
+.two-column .columns a.button:hover {
+  text-decoration: underline;
+}
+.highlight-column {
+  padding: 24px 0;
+  background-color: #f2f4f5;
+  margin-bottom: 0 !important;
+}
+.highlight-column .columns > div > .columns-img-col {
+  max-width: 25%;
+}
+@media (max-width: 767px) {
+  .highlight-column .columns > div > .columns-img-col {
+    max-width: 100%;
+  }
+}
+.highlight-column .columns > div a {
+  text-decoration: underline;
+}
+.section.fsb-block {
+  padding: 64px 0;
+  margin: 0;
+}
+ 
+.section.fsb-block .default-content-wrapper * {
+  width: 66%;
+}
+ 
+.section.fsb-block h2,
+.section.scb-card h2 {
+  font-size: 32px;
+  margin: 0 0 16px;
+  font-weight: 300;
+}
+ 
+.section.fsb-block p {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+ 
+.section.fsb-block p.button-container {
+  margin: 32px 0 0;
+}
+ 
+.section.fsb-block a.button {
+  margin: 0;
+  color: rgb(0, 114, 196);
+  font-size: 16px;
+  text-decoration: none;
+  background: none;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  text-align: left;
+}
+ 
+.section.fsb-block a.button:hover {
+  text-decoration: underline;
+}
+ 
+@media screen and (max-width: 670px) {
+ 
+  .section.fsb-block h2,
+  .section.scb-card h2 {
+    font-size: 28px;
+  }
+ 
+  .section.fsb-block .default-content-wrapper * {
+    width: 100%;
+  }
+}
+ 
+.section.scb-card {
+  padding: 64px 0 32px;
+  margin: 0;
+}
+ 
+.section.scb-card h2 {
+  padding-bottom: 32px;
+}
+ 
+.section.scb-card .default-content-wrapper * {
+  width: 66%;
+}
+ 
+.section.scb-card .columns-wrapper picture img {
+  width: 40px;
+  height: 40px;
+}
+ 
+.section.scb-card .columns-wrapper div p {
+  margin: 0;
+}
+ 
+.section.scb-card .columns-wrapper div p:last-child {
+  margin: 24px 0 0;
+  font-size: 20px;
+}
+ 
+.section.scb-card .columns-wrapper .columns.block>div {
+  align-items: flex-start;
+}
+ 
+.section.scb-card .columns-wrapper .columns.block>div>div {
+  margin-bottom: 32px;
 }

@@ -1,4 +1,4 @@
-
+import { sampleRUM } from '../../scripts/aem.js';
 import decorateFieldset from './fieldset.js';
 
 function generateUnique() {

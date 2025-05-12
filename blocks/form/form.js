@@ -1,4 +1,4 @@
-import { sampleRUM } from '../../scripts/lib-franklin.js';
+
 import decorateFieldset from './fieldset.js';
 
 function generateUnique() {

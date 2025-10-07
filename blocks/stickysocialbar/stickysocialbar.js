@@ -10,5 +10,7 @@ const elem = document.querySelectorAll('.stickysocialbar ul li');
   const inputElement = document.createElement('i');
     inputElement.setAttribute('class', 'fa fa-'+txtValue);
  a.append(inputElement);
+    a.innerText = ''; 
+    a.textContent = '';
   }
 

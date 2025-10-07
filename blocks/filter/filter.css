@@ -9,11 +9,12 @@
   margin-bottom: 12px; /* Add some space below the input */
 }
 
-.myUL ul {
+.myUL > ul {
   /* Remove default list styling */
   list-style-type: none;
   padding: 0;
   margin: 0;
+    display:none;
 }
 
 .myUL ul li a {

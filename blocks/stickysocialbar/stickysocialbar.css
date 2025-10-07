@@ -20,27 +20,27 @@
   background-color: #000;
 }
 
-.facebook {
+ .icon-bar [title="facebook"]{
   background: #3B5998;
   color: white;
 }
 
-.twitter {
+ .icon-bar [title="twitter"] {
   background: #55ACEE;
   color: white;
 }
 
-.google {
+.icon-bar [title="google"] {
   background: #dd4b39;
   color: white;
 }
 
-.linkedin {
+.icon-bar [title="linkedin"] {
   background: #007bb5;
   color: white;
 }
 
-.youtube {
+.icon-bar [title="youtube"] {
   background: #bb0000;
   color: white;
 }

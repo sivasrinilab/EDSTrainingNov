@@ -1,4 +1,5 @@
-const elem = document.querySelector('.stickysocialbar ul li');
+const elem = document.querySelectorAll('.stickysocialbar ul li');
+
 
 
  // Loop through all list items, and hide those who don't match the search query

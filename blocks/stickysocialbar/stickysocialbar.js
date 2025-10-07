@@ -1,6 +1,6 @@
-const elem = document.querySelector('.stickysocialbar');
-const ulelem = elem.closest('ul')
-li = ulelem.getElementsByTagName('li');
+const elem = document.querySelector('.stickysocialbar ul');
+
+li = elem.getElementsByTagName('li');
  // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];

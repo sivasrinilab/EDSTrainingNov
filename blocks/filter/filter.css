@@ -9,7 +9,7 @@
   margin-bottom: 12px; /* Add some space below the input */
 }
 
-.filter > ul {
+.filter ul {
   /* Remove default list styling */
   list-style-type: none;
   padding: 0;

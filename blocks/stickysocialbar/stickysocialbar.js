@@ -10,4 +10,4 @@ li = ulelem.getElementsByTagName('li');
     inputElement.setAttribute('class', 'fa fa-'+txtValue);
  a.append(inputElement);
   }
-}
+

@@ -32,6 +32,6 @@ function myFunction() {
 
   // Append the newly created input element to the target element
   targetElement.prepend(inputElement);
-inputElement.addEventListener('keyUp', myFunction);
+inputElement.addEventListener('keyup', myFunction);
   console.log('Input element created and appended to the DOM.');
 

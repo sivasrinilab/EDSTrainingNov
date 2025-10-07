@@ -31,7 +31,7 @@ function myFunction() {
   const targetElement = document.querySelector('.filter');
 
   // Append the newly created input element to the target element
-  targetElement.appendChild(inputElement);
+  targetElement.prepend(inputElement);
 inputElement.addEventListener('keyUp', myFunction);
   console.log('Input element created and appended to the DOM.');
 

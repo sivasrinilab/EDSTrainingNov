@@ -17,7 +17,7 @@ function myFunction() {
     }
   }
 }
-document.addEventListener('DOMContentLoaded', function() {
+window.onload = function() {
   // Create a new input element
   const inputElement = document.createElement('input');
 
@@ -32,6 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Append the newly created input element to the target element
   targetElement.appendChild(inputElement);
-
+inputElement.addEventListener('keyUp', myFunction);
   console.log('Input element created and appended to the DOM.');
-});
+}

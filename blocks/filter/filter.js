@@ -17,3 +17,21 @@ function myFunction() {
     }
   }
 }
+document.addEventListener('DOMContentLoaded', function() {
+  // Create a new input element
+  const inputElement = document.createElement('input');
+
+  // Set attributes for the input element
+  inputElement.setAttribute('type', 'text');
+  inputElement.setAttribute('id', 'myInput');
+  inputElement.setAttribute('placeholder', 'Search for names..');
+
+  // Find an existing element in the DOM where you want to append the input
+  // For example, append it to the body or a specific div
+  const targetElement = document.querySelector('.filter');
+
+  // Append the newly created input element to the target element
+  targetElement.appendChild(inputElement);
+
+  console.log('Input element created and appended to the DOM.');
+});

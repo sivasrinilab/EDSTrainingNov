@@ -9,8 +9,9 @@ const elem = document.querySelectorAll('.stickysocialbar ul li');
      // Create a new input element
   const inputElement = document.createElement('i');
     inputElement.setAttribute('class', 'fa fa-'+txtValue);
- a.append(inputElement);
-    a.innerText = ''; 
+      a.innerText = ''; 
     a.textContent = '';
+ a.append(inputElement);
+  
   }
 

@@ -5,12 +5,12 @@
 }
 
 /* Create two equal columns that sits next to each other */
-.column {
+.column > div > div{
   flex: 50%;
   padding: 0 4px;
 }
 
-.column picture {
+.column > div > div picture {
   margin-top: 8px;
   vertical-align: middle;
 }

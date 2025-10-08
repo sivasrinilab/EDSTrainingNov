@@ -1,5 +1,5 @@
 // Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
+var elements = document.getElementsByClassName("imagegrid");
 
 // Declare a "loop" variable
 var i;
@@ -32,7 +32,7 @@ function four() {
   
   // Find an existing element in the DOM where you want to append the input
   // For example, append it to the body or a specific div
-  const targetElement = document.querySelector('.column');
+  const targetElement = document.querySelector('.imagegrid');
 
   // Append the newly created input element to the target element
   targetElement.prepend(inputElement);

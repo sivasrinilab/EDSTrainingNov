@@ -28,7 +28,7 @@ function four() {
   const inputElement = document.createElement('button');
 
 
-  inputElement.setAttribute('text', 'one');
+  inputElement.textContent=  'one';
   
   // Find an existing element in the DOM where you want to append the input
   // For example, append it to the body or a specific div
@@ -39,14 +39,14 @@ function four() {
 inputElement.addEventListener('click', one);
 
 const twoElem = document.createElement('button');
-  twoElem.setAttribute('text', 'two');  
+  twoElem.textContent = 'two';  
 
   // Append the newly created input element to the target element
   targetElement.prepend(twoElem);
 twoElem.addEventListener('click', two);
 
 const fourElem = document.createElement('button');
-  fourElem.setAttribute('text', 'four');  
+  fourElem.textContent = 'four';  
 
   // Append the newly created input element to the target element
   targetElement.prepend(fourElem);

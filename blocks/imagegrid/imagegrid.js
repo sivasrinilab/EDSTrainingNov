@@ -1,5 +1,5 @@
 // Get the elements with class="column"
-var elements = document.querySelectorAll(".imagegrid img");
+var elements = document.querySelectorAll(".imagegrid div div");
 
 // Declare a "loop" variable
 var i;

@@ -1,5 +1,5 @@
 // Get the elements with class="column"
-var elements = document.getElementsByClassName("imagegrid");
+var elements = document.getElementsByClassName("imagegrid img");
 
 // Declare a "loop" variable
 var i;

@@ -32,7 +32,7 @@ function four() {
   
   // Find an existing element in the DOM where you want to append the input
   // For example, append it to the body or a specific div
-  const targetElement = document.querySelector('.row');
+  const targetElement = document.querySelector('.column');
 
   // Append the newly created input element to the target element
   targetElement.prepend(inputElement);

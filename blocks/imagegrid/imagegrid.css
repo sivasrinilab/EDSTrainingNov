@@ -8,7 +8,6 @@
 .column > div > div{
   flex: 50%;
   padding: 0 4px;
-    display: flex;
 }
 
 .column > div > div picture {
